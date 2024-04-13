@@ -12,6 +12,11 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
+//Train Model:
+//String route represents a concatenation of the different stations in a String format.
+// For example, if the train goes from station B to D and then to A, the route String will be "B,D,A".
+
+
 @Entity
 @Table(name = "trains")
 public class Train {
